@@ -1,7 +1,6 @@
 def calcular_imc(peso, altura):
-    imc = peso / (altura)
+    imc = peso / (altura ** 2)
     return imc
-    
 
 
 peso = float(input("Insira seu peso em kg: "))
